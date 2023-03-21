@@ -27,6 +27,10 @@ body{
 font-family:'Archivo Black';
 }
 
+#greet {
+  display: none;
+}
+
 @media (orientation: portrait) {
     .title {
         position: fixed;
@@ -45,12 +49,18 @@ font-family:'Archivo Black';
 
   transform: translate(-50%, -50%);
     }
+    #greet-pc {
+      display: none;
+    }
+    #greet {
+      display: block;
+    }
     #about{
       margin-top: 15px;
     }
 
     #count {
-      margin-top:60px;
+      margin-top:120px;
     }
 
     .title {
@@ -76,6 +86,9 @@ font-family:'Archivo Black';
     text-align: center;
 }
 
+.bottom {
+  margin-top: -70px;
+}
 .gradient-text {
     background-color: #CA4246;
      background-image: linear-gradient(
