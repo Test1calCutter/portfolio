@@ -36,4 +36,4 @@ function lcontacts(){
 
 function lportfolios() {
     window.location.assign("../portfolio/portfolio")
-}
+}//wlalr
