@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="portfolio.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="portfolio.js"></script>
+    <script src="links.js"></script>
 </head>
 <body>
 <nav>
   <ul>
     <li style="color: #f7ca18; text-decoration: underline; text-underline-offset: 10px;"><a>Home</a></li>
-    <a href="links/portfolio/portfolio.html"><li>Portfolio</li></a>
-    <a href="links/projects/projects.html"><li>Projects</li></a>
-    <a href="links/contact/contact.html"><li>Contact me</li></a>
+    <li id="portfolio" onclick="portfolios()">Portfolio</li>
+    <li id="projects" onclick="projectss()">Projects</li>
+    <li onclick="contacts()" id="contact">Contact me</li>
     <li class="slide"></li>
   </ul>
 </nav>
